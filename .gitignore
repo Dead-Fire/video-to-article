@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
+
+# Local media and generated results
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+
+# Third-party binaries and speech-recognition models
+tools/*
+!tools/ffmpeg/
+!tools/whisper/
+tools/ffmpeg/**
+tools/whisper/**
+!tools/ffmpeg/README.txt
+!tools/whisper/README.txt
